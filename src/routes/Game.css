@@ -1,0 +1,38 @@
+.game-grid {
+    display: grid;
+    width: min(95%, 120vh);
+    max-height: 100vh;
+}
+
+.game-status {
+}
+
+.game-board {
+    grid-column: span 4;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.medium {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.hard {
+    grid-template-columns: repeat(6, 1fr);
+    gap: 10px;
+}
+
+@media screen and (min-width: 480px) {
+    .easy {
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .medium {
+        grid-template-columns: repeat(6, 1fr);
+    }
+    .hard {
+        grid-template-columns: repeat(8, 1fr);
+    }
+    
+}

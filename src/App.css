@@ -1,0 +1,21 @@
+.App {
+  text-align: center;
+  width: min(90%, 700px);
+  margin: 0 auto;
+  min-height: 100vh;
+  display: grid;
+}
+
+.App h1 {
+  color: white;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.content {
+}
